@@ -1,0 +1,146 @@
+[
+  {
+    "id": "geo-tangram-inicial",
+    "title": "Geometría y Tangram",
+    "level": "Inicial",
+    "age": "5 a 7 años",
+    "description": "Taller visual, manipulativo y listo para imprimir.",
+    "longDescription": "Un ebook pensado para sala de 5 y 1.º grado: los chicos exploran formas, orientación y vocabulario geométrico con tangram, fichas y actividades de recorte. Secuencia clara para usar en una o dos clases.",
+    "price": 6600,
+    "badge": "Más elegido",
+    "active": true,
+    "image": "/products/geo-tangram-inicial/cover.jpg",
+    "gallery": [
+      "/products/geo-tangram-inicial/cover.jpg",
+      "/products/geo-tangram-inicial/page-1.jpg",
+      "/products/geo-tangram-inicial/page-2.jpg"
+    ],
+    "includes": [
+      "Taller imprimible en PDF",
+      "Actividades guiadas paso a paso",
+      "Recortables y fichas visuales",
+      "Propuesta lista para el aula"
+    ],
+    "pages": 10,
+    "audience": "Docentes de nivel inicial y familias que acompañan en casa."
+  },
+  {
+    "id": "division-primaria",
+    "title": "División: repartos y estrategias",
+    "level": "Primaria",
+    "age": "2.º a 4.º grado",
+    "description": "Secuencias didácticas para construir el sentido de la división con repartos y problemas cotidianos.",
+    "longDescription": "Ayuda a que la división deje de ser solo un algoritmo: repartos, agrupamiento y problemas del día a día con representaciones concretas. Ideal para 2.º, 3.º y 4.º grado.",
+    "price": 7200,
+    "badge": null,
+    "active": true,
+    "image": "/products/division-primaria/cover.jpg",
+    "gallery": [
+      "/products/division-primaria/cover.jpg",
+      "/products/division-primaria/page-1.jpg"
+    ],
+    "includes": [
+      "Secuencias didácticas en PDF",
+      "Problemas contextualizados",
+      "Fichas de reparto y agrupamiento",
+      "Consignas para evaluación formativa"
+    ],
+    "pages": 14,
+    "audience": "Maestras y maestros de primaria que enseñan operaciones con sentido."
+  },
+  {
+    "id": "cuerpos-geom-tecnica",
+    "title": "Cuerpos geométricos en secundaria técnica",
+    "level": "Técnica",
+    "age": "1.º y 2.º año",
+    "description": "Prismas, pirámides y desarrollos planos con fichas imprimibles para taller y geometría.",
+    "longDescription": "Prismas, pirámides y desarrollos planos con actividades para taller: construcción, mediciones y vocabulario técnico. Pensado para 1.º y 2.º año de escuelas técnicas.",
+    "price": 7800,
+    "badge": null,
+    "active": true,
+    "image": "/products/cuerpos-geom-tecnica/cover.jpg",
+    "gallery": [
+      "/products/cuerpos-geom-tecnica/cover.jpg",
+      "/products/cuerpos-geom-tecnica/page-1.jpg",
+      "/products/cuerpos-geom-tecnica/page-2.jpg"
+    ],
+    "includes": [
+      "Desarrollos planos imprimibles",
+      "Actividades de taller",
+      "Esquemas y plantillas",
+      "Rúbrica de trabajo práctico"
+    ],
+    "pages": 16,
+    "audience": "Profesores de matemática y taller en secundaria técnica."
+  },
+  {
+    "id": "irracionales-secundaria",
+    "title": "Números irracionales",
+    "level": "Secundaria",
+    "age": "4.º año",
+    "description": "Introducción guiada a √2 y π con representaciones, estimación y ejercicios.",
+    "longDescription": "Introducción progresiva a √2 y π: representación en la recta, estimación y ejercicios para consolidar el concepto sin perder el sentido geométrico.",
+    "price": 7500,
+    "badge": null,
+    "active": true,
+    "image": "/products/irracionales-secundaria/cover.jpg",
+    "gallery": ["/products/irracionales-secundaria/cover.jpg"],
+    "includes": [
+      "Secuencia conceptual en PDF",
+      "Ejercicios de estimación",
+      "Actividades con recta numérica",
+      "Cierre con reflexión metacognitiva"
+    ],
+    "pages": 12,
+    "audience": "Docentes de matemática en 4.º año de secundaria."
+  },
+  {
+    "id": "taller-logico-superior",
+    "title": "Taller de Pensamiento Lógico Matemático",
+    "level": "Superior",
+    "age": "Profesorado",
+    "description": "Propuestas para formación docente: razonamiento, demostración y diseño de situaciones.",
+    "longDescription": "Material para formación docente: razonamiento, demostración y diseño de situaciones problemáticas. Incluye reflexiones para tutorías y espacios de profesorado.",
+    "price": 8200,
+    "badge": "Formación docente",
+    "active": true,
+    "image": "/products/taller-logico-superior/cover.jpg",
+    "gallery": [
+      "/products/taller-logico-superior/cover.jpg",
+      "/products/taller-logico-superior/page-1.jpg"
+    ],
+    "includes": [
+      "Talleres para formación docente",
+      "Consignas de demostración",
+      "Plantillas de diseño didáctico",
+      "Bibliografía sugerida"
+    ],
+    "pages": 18,
+    "audience": "Profesorados, diplomaturas y capacitadores en matemática."
+  },
+  {
+    "id": "ia-primera-experiencia",
+    "title": "Mi primera experiencia con IA",
+    "level": "IA educativa",
+    "age": "Niños y docentes",
+    "description": "Guía amable para usar IA en el aula con ética, ejemplos y actividades seguras.",
+    "longDescription": "Guía amable para introducir IA en el aula con ética, ejemplos concretos y actividades seguras para chicos y adultos que acompañan el proceso de enseñanza.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/ia-primera-experiencia/cover.jpg",
+    "gallery": [
+      "/products/ia-primera-experiencia/cover.jpg",
+      "/products/ia-primera-experiencia/page-1.jpg",
+      "/products/ia-primera-experiencia/page-2.jpg"
+    ],
+    "includes": [
+      "Guía para docentes en PDF",
+      "Actividades con IA responsable",
+      "Fichas para familias",
+      "Checklist de uso seguro"
+    ],
+    "pages": 11,
+    "audience": "Docentes de todos los niveles y equipos directivos que exploran IA educativa."
+  }
+]
