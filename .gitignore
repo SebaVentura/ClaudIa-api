@@ -5,3 +5,6 @@ storage/orders.json
 *.log
 .DS_Store
 Thumbs.db
+
+# Archivos locales de importacion
+imports/*.csv
