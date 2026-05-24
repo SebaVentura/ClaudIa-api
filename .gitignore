@@ -1,5 +1,6 @@
 node_modules/
 .env
+data/backups/
 storage/orders.json
 *.log
 .DS_Store

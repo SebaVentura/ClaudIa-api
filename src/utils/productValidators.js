@@ -32,11 +32,28 @@ export function toPublicProduct(raw) {
   return publicFields
 }
 
-function parseBoolean(value) {
+export function parseActiveValue(value) {
   if (typeof value === 'boolean') return value
-  if (value === 'true' || value === '1') return true
-  if (value === 'false' || value === '0') return false
+  if (value == null || value === '') return null
+  const normalized = String(value).trim().toLowerCase()
+  if (['true', '1', 'si', 'sí', 'yes'].includes(normalized)) return true
+  if (['false', '0', 'no'].includes(normalized)) return false
   return null
+}
+
+function parseBoolean(value) {
+  return parseActiveValue(value)
+}
+
+export function parsePipeDelimitedList(value) {
+  if (value == null || value === '') return []
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item).trim()).filter(Boolean)
+  }
+  return String(value)
+    .split('|')
+    .map((item) => item.trim())
+    .filter(Boolean)
 }
 
 function parsePrice(value) {
@@ -53,13 +70,10 @@ function parsePages(value) {
   return num
 }
 
-function parseStringArray(value, fieldName, errors) {
-  if (value == null) return []
-  if (!Array.isArray(value)) {
-    errors.push(`${fieldName} debe ser un array`)
-    return []
-  }
-  return value.map((item) => String(item).trim()).filter(Boolean)
+const OPTIONAL_PRODUCT_FIELDS = ['driveFolder', 'pdfFile', 'estadoCarga', 'observaciones']
+
+function parseListField(value) {
+  return parsePipeDelimitedList(value)
 }
 
 export function validateProductInput(body, { requireId = false, existingId = null } = {}) {
@@ -92,8 +106,8 @@ export function validateProductInput(body, { requireId = false, existingId = nul
     errors.push('active debe ser booleano')
   }
 
-  const gallery = parseStringArray(input.gallery, 'gallery', errors)
-  const includes = parseStringArray(input.includes, 'includes', errors)
+  const gallery = parseListField(input.gallery)
+  const includes = parseListField(input.includes)
 
   let pages = null
   if (input.pages != null && input.pages !== '') {
@@ -138,5 +152,40 @@ export function validateProductInput(body, { requireId = false, existingId = nul
     product.pages = input.existingPages
   }
 
+  for (const key of OPTIONAL_PRODUCT_FIELDS) {
+    const value = input[key]
+    if (value != null && String(value).trim() !== '') {
+      product[key] = String(value).trim()
+    }
+  }
+
   return { product, errors: [] }
+}
+
+export function csvRowToProductInput(row) {
+  if (!row || typeof row !== 'object') return {}
+  return {
+    id: row.id,
+    title: row.title,
+    level: row.level,
+    age: row.age,
+    description: row.description,
+    longDescription: row.longDescription,
+    price: row.price,
+    badge: row.badge,
+    active: row.active,
+    image: row.image,
+    gallery: row.gallery,
+    includes: row.includes,
+    pages: row.pages,
+    audience: row.audience,
+    category: row.category,
+    downloadLink: row.downloadLink,
+    deliveryMode: row.deliveryMode,
+    checkoutMode: row.checkoutMode,
+    driveFolder: row.driveFolder,
+    pdfFile: row.pdfFile,
+    estadoCarga: row.estadoCarga,
+    observaciones: row.observaciones,
+  }
 }
