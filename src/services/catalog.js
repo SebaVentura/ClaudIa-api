@@ -1,5 +1,5 @@
-import fs from 'fs/promises'
-import { config } from '../config/env.js'
+import { readAll, ProductsRepositoryError } from '../repositories/productsRepository.js'
+import { normalizeProduct } from '../utils/productValidators.js'
 
 export class CatalogError extends Error {
   constructor(message, statusCode = 500) {
@@ -11,18 +11,13 @@ export class CatalogError extends Error {
 
 export async function loadCatalog() {
   try {
-    const raw = await fs.readFile(config.productsPath, 'utf8')
-    const data = JSON.parse(raw)
-    if (!Array.isArray(data)) {
-      throw new CatalogError('Formato de catálogo inválido')
-    }
-    return data
+    const data = await readAll()
+    return data.map(normalizeProduct)
   } catch (err) {
-    if (err instanceof CatalogError) throw err
-    if (err instanceof SyntaxError) {
-      console.error('products.json corrupto:', err.message)
-      throw new CatalogError('No se pudo leer el catálogo (JSON inválido)')
+    if (err instanceof ProductsRepositoryError) {
+      throw new CatalogError(err.message, err.statusCode)
     }
+    if (err instanceof CatalogError) throw err
     console.error('Error leyendo products.json:', err.message)
     throw new CatalogError('No se pudo leer el catálogo')
   }
