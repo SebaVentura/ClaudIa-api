@@ -84,7 +84,9 @@
     "badge": null,
     "active": true,
     "image": "/products/irracionales-secundaria/cover.jpg",
-    "gallery": ["/products/irracionales-secundaria/cover.jpg"],
+    "gallery": [
+      "/products/irracionales-secundaria/cover.jpg"
+    ],
     "includes": [
       "Secuencia conceptual en PDF",
       "Ejercicios de estimación",
@@ -142,5 +144,1191 @@
     ],
     "pages": 11,
     "audience": "Docentes de todos los niveles y equipos directivos que exploran IA educativa."
+  },
+  {
+    "id": "taller-restas-primaria",
+    "title": "Mi taller de restas",
+    "level": "Primaria",
+    "age": "Segundo grado",
+    "description": "Taller imprimible para practicar restas con actividades visuales y progresivas.",
+    "longDescription": "Material didáctico para trabajar la resta en primaria, con actividades guiadas, ejercicios visuales, problemas simples y propuestas para el aula.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-restas-primaria/cover.jpg",
+    "gallery": [
+      "/products/taller-restas-primaria/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Ejercicios progresivos",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de primaria y familias que acompañan el aprendizaje.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "driveFolder": "https://drive.google.com/drive/folders/1H9vj3lZ_JBF8GTY2wHwNy4zl59be7cYe",
+    "pdfFile": "https://drive.google.com/file/d/1dUNu-iFvUruJE6DT040Os_6oczyV-5vR/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "PDF cargado desde carpeta Primaria. Falta asociar portada PNG definitiva."
+  },
+  {
+    "id": "sistema-de-numeracion",
+    "title": "El origen de nuestro sistema de numeración",
+    "level": "Primaria",
+    "age": "5 a 6 años",
+    "description": "Taller visual para explorar el origen del sistema de numeración y sus primeras representaciones.",
+    "longDescription": "Propuesta didáctica para introducir el sistema de numeración desde una mirada histórica, visual y manipulativa, con actividades guiadas para niñas y niños.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/sistema-de-numeracion/cover.jpg",
+    "gallery": [
+      "/products/sistema-de-numeracion/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades visuales",
+      "Historia del sistema de numeración",
+      "Propuesta guiada"
+    ],
+    "audience": "Docentes de nivel inicial y primer ciclo de primaria.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "driveFolder": "https://drive.google.com/drive/folders/1H9vj3lZ_JBF8GTY2wHwNy4zl59be7cYe",
+    "pdfFile": "https://drive.google.com/file/d/1lfe4q2vEhSAzXEjO5vaqSycRonwXWnY3/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "PDF cargado desde carpeta Primaria. Falta asociar portada PNG definitiva."
+  },
+  {
+    "id": "sumas-restas-descomposicion-polinomica",
+    "title": "Mi taller de sumas y restas por descomposición polinómica",
+    "level": "Primaria",
+    "age": "Segundo grado",
+    "description": "Taller para trabajar sumas y restas usando descomposición polinómica con apoyo visual.",
+    "longDescription": "Material didáctico para segundo grado que propone actividades visuales, recortables y ejercicios progresivos para comprender la suma y la resta desde la descomposición polinómica.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/sumas-restas-descomposicion-polinomica/cover.jpg",
+    "gallery": [
+      "/products/sumas-restas-descomposicion-polinomica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades visuales",
+      "Recortables",
+      "Ejercicios progresivos"
+    ],
+    "audience": "Docentes de primaria y familias que acompañan el aprendizaje.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "driveFolder": "https://drive.google.com/drive/folders/1H9vj3lZ_JBF8GTY2wHwNy4zl59be7cYe",
+    "pdfFile": "https://drive.google.com/file/d/1YjdRr-IkNv9j4iph9wRwTvrvWZn0mmjp/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "PDF cargado desde carpeta Primaria. Falta asociar portada PNG definitiva."
+  },
+  {
+    "id": "taller-de-geometria-y-tangram",
+    "title": "Taller de Geometría y Tangram",
+    "level": "Primaria",
+    "age": "5 a 7 años",
+    "description": "Taller imprimible de Matemática / Geometría para Inicial / Primaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de Geometría y Tangram. Está pensado para Inicial / Primaria (5 a 7 años) y aborda Matemática / Geometría con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-de-geometria-y-tangram/cover.jpg",
+    "gallery": [
+      "/products/taller-de-geometria-y-tangram/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1X_l2SLP6KxtS-kSYS_STIErIemFbemQ2/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/01_Inicial_Primaria/Tangram_5a7/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "mi-primer-taller-de-sumas",
+    "title": "Mi primer taller de sumas",
+    "level": "Primaria",
+    "age": "5 a 7 años",
+    "description": "Taller imprimible de Matemática / Numeración para Inicial / Primaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Mi primer taller de sumas. Está pensado para Inicial / Primaria (5 a 7 años) y aborda Matemática / Numeración con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 3900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/mi-primer-taller-de-sumas/cover.jpg",
+    "gallery": [
+      "/products/mi-primer-taller-de-sumas/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1_kw1uJYm3JJb8cxjFkI4_QZctDqX0wtv/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/01_Inicial_Primaria/Sumas_5a7/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "mi-primer-taller-de-numeros",
+    "title": "Mi primer taller de números",
+    "level": "Primaria",
+    "age": "5 a 7 años",
+    "description": "Taller imprimible de Matemática / Numeración para Inicial / Primaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Mi primer taller de números. Está pensado para Inicial / Primaria (5 a 7 años) y aborda Matemática / Numeración con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 3900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/mi-primer-taller-de-numeros/cover.jpg",
+    "gallery": [
+      "/products/mi-primer-taller-de-numeros/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Matemática primaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1HgyKIxJ4QmTPeoJ1v6TRHyyYZnmE7pJh/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/01_Inicial_Primaria/Numeros_5a7/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "taller-de-conteo",
+    "title": "Taller de Conteo",
+    "level": "Inicial",
+    "age": "Sala de 3 años",
+    "description": "Taller imprimible de Matemática / Conteo para Inicial, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de Conteo. Está pensado para Inicial (Sala de 3 años) y aborda Matemática / Conteo con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 3900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-de-conteo/cover.jpg",
+    "gallery": [
+      "/products/taller-de-conteo/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Inicial",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1gnH9RQVNrbGV37Jl0Gve6Ya6gBZkXGn4/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/00_Nivel_Inicial/Conteo_Sala3/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "taller-de-medida",
+    "title": "Taller de Medida",
+    "level": "Inicial",
+    "age": "Sala de 3 años",
+    "description": "Taller imprimible de Matemática / Magnitudes para Inicial, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de Medida. Está pensado para Inicial (Sala de 3 años) y aborda Matemática / Magnitudes con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 3900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-de-medida/cover.jpg",
+    "gallery": [
+      "/products/taller-de-medida/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Inicial",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1Kx3r1gE_kTV8a9Vi_RojcohfUvzkiJnP/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/00_Nivel_Inicial/Medida_Sala3/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "taller-de-emociones",
+    "title": "Taller de Emociones",
+    "level": "Inicial",
+    "age": "Sala de 3 / 4 / 5",
+    "description": "Taller imprimible de Educación emocional para Inicial, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de Emociones. Está pensado para Inicial (Sala de 3 / 4 / 5) y aborda Educación emocional con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-de-emociones/cover.jpg",
+    "gallery": [
+      "/products/taller-de-emociones/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Inicial",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1SR1WlPCmuFYmVxJGSIFlkOqDRwBmRJLp/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/00_Nivel_Inicial/Emociones/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "ia-nivel-1-conoce-las-inteligencias-artificiales",
+    "title": "IA Nivel 1: Conocé las inteligencias artificiales",
+    "level": "IA educativa",
+    "age": "Estudiantes secundarios",
+    "description": "Taller imprimible de Tecnología / IA para Secundaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre IA Nivel 1: Conocé las inteligencias artificiales. Está pensado para Secundaria (Estudiantes secundarios) y aborda Tecnología / IA con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/ia-nivel-1-conoce-las-inteligencias-artificiales/cover.jpg",
+    "gallery": [
+      "/products/ia-nivel-1-conoce-las-inteligencias-artificiales/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de nivel secundario.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1wTnrXSN6IFAIipOwWzumagEQTHJGfi4e/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/03_Secundaria/IA_Nivel_1_Introduccion/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "ia-nivel-2-usa-ia-para-estudiar-crear-y-presentar-proyectos",
+    "title": "IA Nivel 2: Usá IA para estudiar, crear y presentar proyectos",
+    "level": "IA educativa",
+    "age": "Estudiantes secundarios / ciclo superior",
+    "description": "Taller imprimible de Tecnología / IA para Secundaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre IA Nivel 2: Usá IA para estudiar, crear y presentar proyectos. Está pensado para Secundaria (Estudiantes secundarios / ciclo superior) y aborda Tecnología / IA con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 8900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/ia-nivel-2-usa-ia-para-estudiar-crear-y-presentar-proyectos/cover.jpg",
+    "gallery": [
+      "/products/ia-nivel-2-usa-ia-para-estudiar-crear-y-presentar-proyectos/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de nivel secundario.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1o1dkYhkcnt8AguVFXKS0ew5vxWioUVoo/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/03_Secundaria/IA_Nivel_2_Proyectos/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "taller-para-docentes-recien-recibidos-planificacion-y-organizacion-de-clases",
+    "title": "Taller para docentes recién recibidos: planificación y organización de clases",
+    "level": "Docentes",
+    "age": "Docentes nuevos / poca experiencia",
+    "description": "Taller imprimible de Formación docente para Docentes, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller para docentes recién recibidos: planificación y organización de clases. Está pensado para Docentes (Docentes nuevos / poca experiencia) y aborda Formación docente con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 7900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-para-docentes-recien-recibidos-planificacion-y-organizacion-de-clases/cover.jpg",
+    "gallery": [
+      "/products/taller-para-docentes-recien-recibidos-planificacion-y-organizacion-de-clases/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y equipos educativos.",
+    "category": "Formación docente",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "taller_docentes_recien_recibidos_FINAL.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/05_Docentes/Taller_Docentes_Nuevos/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "cuadernillo-matematica-1-o-ano-tecnica",
+    "title": "Cuadernillo Matemática 1.º Año Técnica",
+    "level": "Secundaria",
+    "age": "1.º año",
+    "description": "Cuadernillo imprimible de Matemática para Secundaria técnica, con práctica organizada y actividades progresivas.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Cuadernillo Matemática 1.º Año Técnica. Está pensado para Secundaria técnica (1.º año) y aborda Matemática con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 8900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/cuadernillo-matematica-1-o-ano-tecnica/cover.jpg",
+    "gallery": [
+      "/products/cuadernillo-matematica-1-o-ano-tecnica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Secuencia de práctica",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1ae18fgm2-QxUQ1yy6ArK8bVvqJF1kl8x/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Cuadernillos/Matematica_1/PDF_Final. Fuente: Catálogo ClaudIA v2 + PDF detectado"
+  },
+  {
+    "id": "cuadernillo-matematica-2-o-ano-tecnica",
+    "title": "Cuadernillo Matemática 2.º Año Técnica",
+    "level": "Secundaria",
+    "age": "2.º año",
+    "description": "Cuadernillo imprimible de Matemática para Secundaria técnica, con práctica organizada y actividades progresivas.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Cuadernillo Matemática 2.º Año Técnica. Está pensado para Secundaria técnica (2.º año) y aborda Matemática con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 8900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/cuadernillo-matematica-2-o-ano-tecnica/cover.jpg",
+    "gallery": [
+      "/products/cuadernillo-matematica-2-o-ano-tecnica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Secuencia de práctica",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1S-rQXzOn9u7JtYdVWwpnVL4DpFU0Vr1f/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Cuadernillos/Matematica_2/PDF_Final. Fuente: Catálogo ClaudIA v2 + PDF detectado"
+  },
+  {
+    "id": "bhaskara-aplicada-a-automotores",
+    "title": "Bhaskara aplicada a Automotores",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Bhaskara aplicada a Automotores. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/bhaskara-aplicada-a-automotores/cover.jpg",
+    "gallery": [
+      "/products/bhaskara-aplicada-a-automotores/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1a9449ZItqK_vsnFOijpskwZE6wBPRoqm/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Bhaskara/Automotores/PDF_Final. Fuente: Catálogo ClaudIA v2 + PDF detectado"
+  },
+  {
+    "id": "bhaskara-aplicada-a-electromecanica",
+    "title": "Bhaskara aplicada a Electromecánica",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Bhaskara aplicada a Electromecánica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/bhaskara-aplicada-a-electromecanica/cover.jpg",
+    "gallery": [
+      "/products/bhaskara-aplicada-a-electromecanica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/16g9nnjWy0GDwzSyZCFFkmam2gPERYYFY/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Bhaskara/Electromecanica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "bhaskara-aplicada-a-electronica",
+    "title": "Bhaskara aplicada a Electrónica",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Bhaskara aplicada a Electrónica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/bhaskara-aplicada-a-electronica/cover.jpg",
+    "gallery": [
+      "/products/bhaskara-aplicada-a-electronica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1w0bxrN1uEG0UZokOEHarilhRYeMaqdeT/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Bhaskara/Electronica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "bhaskara-aplicada-a-aeronautica",
+    "title": "Bhaskara aplicada a Aeronáutica",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Bhaskara aplicada a Aeronáutica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/bhaskara-aplicada-a-aeronautica/cover.jpg",
+    "gallery": [
+      "/products/bhaskara-aplicada-a-aeronautica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1o1BlCduNyS21zhwVAbsIvdRJHDWW1_Bb/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Bhaskara/Aeronautica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "bhaskara-aplicada-a-informatica",
+    "title": "Bhaskara aplicada a Informática",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Bhaskara aplicada a Informática. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/bhaskara-aplicada-a-informatica/cover.jpg",
+    "gallery": [
+      "/products/bhaskara-aplicada-a-informatica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1-atV-NSpwQtdYd7Eb-Aimej40CkMRe7d/view?usp=drivesdk",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Bhaskara/Informatica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "trigonometria-aplicada-a-automotores",
+    "title": "Trigonometría aplicada a Automotores",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Trigonometría aplicada a Automotores. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/trigonometria-aplicada-a-automotores/cover.jpg",
+    "gallery": [
+      "/products/trigonometria-aplicada-a-automotores/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1S6FPRghBktYK3f6o-Pr1SeIRlEaVcGjR/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Trigonometria/Automotores/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "trigonometria-aplicada-a-electromecanica",
+    "title": "Trigonometría aplicada a Electromecánica",
+    "level": "Secundaria técnica",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Trigonometría aplicada a Electromecánica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/trigonometria-aplicada-a-electromecanica/cover.jpg",
+    "gallery": [
+      "/products/trigonometria-aplicada-a-electromecanica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "trigonometria_electromecanica_FINAL.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Trigonometria/Electromecanica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "trigonometria-aplicada-a-electronica",
+    "title": "Trigonometría aplicada a Electrónica",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Trigonometría aplicada a Electrónica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/trigonometria-aplicada-a-electronica/cover.jpg",
+    "gallery": [
+      "/products/trigonometria-aplicada-a-electronica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/10wfYW3kOCt2wUKDRRsWQEnrRcobtSwj7/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Trigonometria/Electronica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "trigonometria-aplicada-a-aeronautica",
+    "title": "Trigonometría aplicada a Aeronáutica",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática aplicada para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Trigonometría aplicada a Aeronáutica. Está pensado para Secundaria técnica (Ciclo superior) y aborda Matemática aplicada con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/trigonometria-aplicada-a-aeronautica/cover.jpg",
+    "gallery": [
+      "/products/trigonometria-aplicada-a-aeronautica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1D5J_x3DzcKhgKpUyJulDHFOE_3OMni6E/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo. Carpeta sugerida: 00_CLAUDIA_PRODUCTOS/02_Secundaria_Tecnica/Trigonometria/Aeronautica/PDF_Final. Fuente: Catálogo ClaudIA v2"
+  },
+  {
+    "id": "cuadernillo-matematica-3-o-ano",
+    "title": "Cuadernillo Matemática 3.º Año",
+    "level": "Secundaria",
+    "age": "3.º año",
+    "description": "Cuadernillo imprimible de Matemática para Secundaria, con práctica organizada y actividades progresivas.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Cuadernillo Matemática 3.º Año. Está pensado para Secundaria (3.º año) y aborda Matemática con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 8900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/cuadernillo-matematica-3-o-ano/cover.jpg",
+    "gallery": [
+      "/products/cuadernillo-matematica-3-o-ano/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Secuencia de práctica",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de nivel secundario.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/13BG7U5oCkrkZT1Y-6XBrEVA1l7hRQfFa/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 02_Secundaria/Cuadernillos/Matematica_3. Fuente: PDF detectado + catálogo previo"
+  },
+  {
+    "id": "taller-matematica-4-o-ano-ciclo-superior",
+    "title": "Taller Matemática 4.º Año Ciclo Superior",
+    "level": "Secundaria técnica",
+    "age": "4.º año",
+    "description": "Taller imprimible de Matemática para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller Matemática 4.º Año Ciclo Superior. Está pensado para Secundaria técnica (4.º año) y aborda Matemática con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 9900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-matematica-4-o-ano-ciclo-superior/cover.jpg",
+    "gallery": [
+      "/products/taller-matematica-4-o-ano-ciclo-superior/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "Taller_Matematica_4_Ciclo_Superior.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo detectado. Carpeta sugerida: 02_Secundaria_Tecnica/Cuadernillos/Matematica_4. Fuente: PDF detectado + catálogo previo"
+  },
+  {
+    "id": "numeros-irracionales-radicacion-propiedades-y-operaciones-aplicado-a-las-ciencia",
+    "title": "Números irracionales: radicación, propiedades y operaciones aplicado a las Ciencias Sociales",
+    "level": "Secundaria",
+    "age": "4.º año",
+    "description": "Taller imprimible de Matemática / Ciencias Sociales para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Números irracionales: radicación, propiedades y operaciones aplicado a las Ciencias Sociales. Está pensado para Secundaria técnica (4.º año) y aborda Matemática / Ciencias Sociales con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/numeros-irracionales-radicacion-propiedades-y-operaciones-aplicado-a-las-ciencia/cover.jpg",
+    "gallery": [
+      "/products/numeros-irracionales-radicacion-propiedades-y-operaciones-aplicado-a-las-ciencia/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1DmUkVn2PKp-6lgM-uzVHrILcaYzs6hxN/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 02_Secundaria_Tecnica/Talleres/Numeros_Irracionales_CsSociales. Fuente: PDF detectado"
+  },
+  {
+    "id": "limites-aplicados-a-la-electronica",
+    "title": "Límites aplicados a la electrónica",
+    "level": "Secundaria",
+    "age": "6.º año",
+    "description": "Taller imprimible de Matemática aplicada / Electrónica para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Límites aplicados a la electrónica. Está pensado para Secundaria técnica (6.º año) y aborda Matemática aplicada / Electrónica con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/limites-aplicados-a-la-electronica/cover.jpg",
+    "gallery": [
+      "/products/limites-aplicados-a-la-electronica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/13tF1enQ5khGpQc5vZm9YbhYFTh4uNbDV/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 02_Secundaria_Tecnica/Electronica/Limites. Fuente: PDF detectado"
+  },
+  {
+    "id": "introduccion-a-las-derivadas-aplicadas-a-la-electronica",
+    "title": "Introducción a las derivadas aplicadas a la electrónica",
+    "level": "Secundaria",
+    "age": "6.º año",
+    "description": "Taller imprimible de Matemática aplicada / Electrónica para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Introducción a las derivadas aplicadas a la electrónica. Está pensado para Secundaria técnica (6.º año) y aborda Matemática aplicada / Electrónica con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/introduccion-a-las-derivadas-aplicadas-a-la-electronica/cover.jpg",
+    "gallery": [
+      "/products/introduccion-a-las-derivadas-aplicadas-a-la-electronica/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1W0fj_94wjLoNOIU_H_kMcnOq91K3z9ti/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 02_Secundaria_Tecnica/Electronica/Derivadas. Fuente: PDF detectado"
+  },
+  {
+    "id": "taller-integrador-investigativo-de-pensamiento-logico-matematico",
+    "title": "Taller integrador investigativo de Pensamiento Lógico Matemático",
+    "level": "Superior",
+    "age": "Profesorado de Educación Primaria",
+    "description": "Taller imprimible de Pensamiento lógico matemático para Terciario, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller integrador investigativo de Pensamiento Lógico Matemático. Está pensado para Terciario (Profesorado de Educación Primaria) y aborda Pensamiento lógico matemático con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 7900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-integrador-investigativo-de-pensamiento-logico-matematico/cover.jpg",
+    "gallery": [
+      "/products/taller-integrador-investigativo-de-pensamiento-logico-matematico/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Estudiantes de profesorados y docentes en formación.",
+    "category": "Formación docente",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1G-KKDxFrGy6ORNmEKr9UqaQT0AY1wjAp/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 06_Terciario/TPLM/Profesorado_Primaria. Fuente: PDF detectado"
+  },
+  {
+    "id": "taller-integrador-de-pensamiento-logico-matematico-geometria-problemas-e-inclusi",
+    "title": "Taller integrador de Pensamiento Lógico Matemático: Geometría, problemas e inclusión",
+    "level": "Terciario",
+    "age": "Profesorado de Educación Especial 1.º año",
+    "description": "Taller imprimible de Pensamiento lógico matemático / Inclusión para Terciario, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller integrador de Pensamiento Lógico Matemático: Geometría, problemas e inclusión. Está pensado para Terciario (Profesorado de Educación Especial 1.º año) y aborda Pensamiento lógico matemático / Inclusión con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 7900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-integrador-de-pensamiento-logico-matematico-geometria-problemas-e-inclusi/cover.jpg",
+    "gallery": [
+      "/products/taller-integrador-de-pensamiento-logico-matematico-geometria-problemas-e-inclusi/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Estudiantes de profesorados y docentes en formación.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "Taller_integrador_TPLM_Educacion_Especial_ClaudIA_v2_paginas.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Versión v2 detectada. Carpeta sugerida: 06_Terciario/TPLM/Educacion_Especial. Fuente: PDF detectado"
+  },
+  {
+    "id": "mi-primera-experiencia-con-la-ia",
+    "title": "Mi primera experiencia con la IA",
+    "level": "IA educativa",
+    "age": "8 a 12 años",
+    "description": "Taller imprimible de IA creativa / Alfabetización digital para Infantil / Primaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Mi primera experiencia con la IA. Está pensado para Infantil / Primaria (8 a 12 años) y aborda IA creativa / Alfabetización digital con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 4900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/mi-primera-experiencia-con-la-ia/cover.jpg",
+    "gallery": [
+      "/products/mi-primera-experiencia-con-la-ia/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Certificado",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de primaria y familias que acompañan el aprendizaje.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pdfFile": "https://drive.google.com/file/d/1wTnrXSN6IFAIipOwWzumagEQTHJGfi4e/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Portada detectada. Carpeta sugerida: 03_IA_Educativa/Mi_Primera_Experiencia_IA. Fuente: PDF detectado"
+  },
+  {
+    "id": "taller-de-geometria-con-tangram-nivel-terciario",
+    "title": "Taller de Geometría con Tangram - Nivel terciario",
+    "level": "Superior",
+    "age": "Profesorados",
+    "description": "Taller imprimible de Geometría / Inclusión para Terciario, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de Geometría con Tangram - Nivel terciario. Está pensado para Terciario (Profesorados) y aborda Geometría / Inclusión con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 7900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/taller-de-geometria-con-tangram-nivel-terciario/cover.jpg",
+    "gallery": [
+      "/products/taller-de-geometria-con-tangram-nivel-terciario/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Estudiantes de profesorados y docentes en formación.",
+    "category": "Formación docente",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1Tqb64b3UE06cBRyU0VclahILqDwmCLQx/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Completo detectado. Carpeta sugerida: 06_Terciario/Tangram. Fuente: PDF detectado"
+  },
+  {
+    "id": "manual-docente-taller-intensivo-ia-aplicada-al-trabajo",
+    "title": "Manual Docente / Taller Intensivo: IA aplicada al trabajo",
+    "level": "Docentes / Profesionales",
+    "age": "Adultos",
+    "description": "Guía visual e imprimible para trabajar manual docente / taller intensivo: ia aplicada al trabajo con orientación clara y uso práctico.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Manual Docente / Taller Intensivo: IA aplicada al trabajo. Está pensado para Docentes / Profesionales (Adultos) y aborda IA aplicada al trabajo con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 7900,
+    "badge": "Nuevo",
+    "active": true,
+    "image": "/products/manual-docente-taller-intensivo-ia-aplicada-al-trabajo/cover.jpg",
+    "gallery": [
+      "/products/manual-docente-taller-intensivo-ia-aplicada-al-trabajo/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Guía paso a paso",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y equipos educativos.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "SV_DataLab_Manual_Docente_Completo.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Completo detectado. Carpeta sugerida: 05_Docentes/IA_Aplicada_Trabajo. Fuente: PDF detectado"
+  },
+  {
+    "id": "taller-de-funcion-lineal",
+    "title": "Taller de función lineal",
+    "level": "Secundaria",
+    "age": "Ciclo básico / superior inicial",
+    "description": "Taller imprimible de Matemática / Funciones para Secundaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de función lineal. Está pensado para Secundaria (Ciclo básico / superior inicial) y aborda Matemática / Funciones con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 5900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-funcion-lineal/cover.jpg",
+    "gallery": [
+      "/products/taller-de-funcion-lineal/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes de nivel inicial y familias que acompañan el aprendizaje.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1d5ugky1xguYCqGYz0DTM7j4kU1dFSPos/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria/Funciones/Funcion_Lineal. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-de-funciones-por-tramos",
+    "title": "Taller de funciones por tramos",
+    "level": "Secundaria",
+    "age": "Ciclo superior",
+    "description": "Taller imprimible de Matemática / Funciones para Secundaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de funciones por tramos. Está pensado para Secundaria (Ciclo superior) y aborda Matemática / Funciones con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 5900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-funciones-por-tramos/cover.jpg",
+    "gallery": [
+      "/products/taller-de-funciones-por-tramos/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de nivel secundario.",
+    "category": "Inteligencia artificial educativa",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "taller_funciones_por_tramos_claudia.pdf",
+    "estadoCarga": "requiere_revision",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria/Funciones/Funciones_por_Tramos. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-de-propiedades-de-potenciacion-y-radicacion-con-numeros-enteros",
+    "title": "Taller de propiedades de potenciación y radicación con números enteros",
+    "level": "Secundaria",
+    "age": "Ciclo básico",
+    "description": "Taller imprimible de Matemática para Secundaria, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de propiedades de potenciación y radicación con números enteros. Está pensado para Secundaria (Ciclo básico) y aborda Matemática con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 5900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-propiedades-de-potenciacion-y-radicacion-con-numeros-enteros/cover.jpg",
+    "gallery": [
+      "/products/taller-de-propiedades-de-potenciacion-y-radicacion-con-numeros-enteros/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de nivel secundario.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1W0hhMvTkF70kbQebXr8u_CgRNPe__uk2/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria/Numeros/Potenciacion_Radicacion. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-de-operaciones-con-numeros-fraccionarios",
+    "title": "Taller de operaciones con números fraccionarios",
+    "level": "Secundaria",
+    "age": "2.º año",
+    "description": "Taller imprimible de Matemática / Fracciones para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de operaciones con números fraccionarios. Está pensado para Secundaria técnica (2.º año) y aborda Matemática / Fracciones con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-operaciones-con-numeros-fraccionarios/cover.jpg",
+    "gallery": [
+      "/products/taller-de-operaciones-con-numeros-fraccionarios/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/16kZPCdlqsGDE-rXSmcLYBU72BoQpaISY/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria_Tecnica/Fracciones. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-del-teorema-de-thales",
+    "title": "Taller del Teorema de Thales",
+    "level": "Secundaria",
+    "age": "3.º año ciclo básico",
+    "description": "Taller imprimible de Geometría / Semejanza para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller del Teorema de Thales. Está pensado para Secundaria técnica (3.º año ciclo básico) y aborda Geometría / Semejanza con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-del-teorema-de-thales/cover.jpg",
+    "gallery": [
+      "/products/taller-del-teorema-de-thales/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1XcWhL9fS7HLIH5m25xgnC3DVAQWO0hz0/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria_Tecnica/Geometria/Thales. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-de-unidades-de-medida-si-me-la-y-sistema-internacional",
+    "title": "Taller de unidades de medida: SI.ME.LA y Sistema Internacional",
+    "level": "Secundaria",
+    "age": "Ciclo básico",
+    "description": "Taller imprimible de Medida / Técnica para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de unidades de medida: SI.ME.LA y Sistema Internacional. Está pensado para Secundaria técnica (Ciclo básico) y aborda Medida / Técnica con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-unidades-de-medida-si-me-la-y-sistema-internacional/cover.jpg",
+    "gallery": [
+      "/products/taller-de-unidades-de-medida-si-me-la-y-sistema-internacional/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Problemas aplicados",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1jp4xKma8qJolPyb_jT3OZ0rnEuItdlWH/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria_Tecnica/Medida/SIMELA_SI. Fuente: Memoria reciente / pendiente ubicar"
+  },
+  {
+    "id": "taller-de-ecuaciones-y-pasaje-de-lenguaje-simbolico-a-coloquial",
+    "title": "Taller de ecuaciones y pasaje de lenguaje simbólico a coloquial",
+    "level": "Secundaria",
+    "age": "Ciclo básico",
+    "description": "Taller imprimible de Álgebra / Lenguajes para Secundaria técnica, con actividades guiadas, ejemplos y propuesta de cierre.",
+    "longDescription": "Material editorial ClaudIA Educación Digital sobre Taller de ecuaciones y pasaje de lenguaje simbólico a coloquial. Está pensado para Secundaria técnica (Ciclo básico) y aborda Álgebra / Lenguajes con una propuesta visual, didáctica y lista para usar. Incluye desarrollo conceptual, actividades progresivas y consignas para trabajar en clase o como material de apoyo.",
+    "price": 6900,
+    "badge": "Nuevo",
+    "active": false,
+    "image": "/products/taller-de-ecuaciones-y-pasaje-de-lenguaje-simbolico-a-coloquial/cover.jpg",
+    "gallery": [
+      "/products/taller-de-ecuaciones-y-pasaje-de-lenguaje-simbolico-a-coloquial/cover.jpg"
+    ],
+    "includes": [
+      "PDF imprimible",
+      "Actividades para el aula",
+      "Propuesta de cierre"
+    ],
+    "audience": "Docentes y estudiantes de escuela secundaria técnica.",
+    "category": "Matemática secundaria",
+    "downloadLink": "",
+    "deliveryMode": "automatic_download",
+    "checkoutMode": "cart",
+    "pages": 10,
+    "pdfFile": "https://drive.google.com/file/d/1zTssrcNSQNWH0QeNZyef7jhVe37YyT2e/view?usp=drivesdk",
+    "estadoCarga": "revisado",
+    "observaciones": "Producido en conversación / pendiente ubicar. Carpeta sugerida: 02_Secundaria_Tecnica/Algebra/Ecuaciones_Lenguajes. Fuente: Memoria reciente / pendiente ubicar"
   }
 ]
