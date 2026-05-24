@@ -27,4 +27,8 @@ export const config = {
   adminPassword: process.env.ADMIN_PASSWORD || '',
   jwtSecret: (process.env.JWT_SECRET || '').trim(),
   jwtExpiresIn: (process.env.JWT_EXPIRES_IN || '8h').trim(),
+  uploadsDir: resolveDataPath('UPLOADS_DIR', './storage/uploads'),
+  publicUploadsBaseUrl: (
+    process.env.PUBLIC_UPLOADS_BASE_URL || 'http://127.0.0.1:3000/uploads'
+  ).replace(/\/$/, ''),
 }

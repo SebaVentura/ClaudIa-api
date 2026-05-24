@@ -1,4 +1,8 @@
 const ID_SLUG_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
+
+export function isValidProductSlug(id) {
+  return ID_SLUG_RE.test(String(id || '').trim())
+}
 const DELIVERY_MODES = new Set(['automatic_download', 'manual'])
 const CHECKOUT_MODES = new Set(['cart'])
 

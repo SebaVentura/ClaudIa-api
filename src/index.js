@@ -19,6 +19,8 @@ app.use(
 
 app.use(express.json())
 
+app.use('/uploads', express.static(config.uploadsDir))
+
 app.use(healthRouter)
 app.use(productsRouter)
 app.use(checkoutRouter)
@@ -33,4 +35,6 @@ app.listen(config.port, () => {
   console.log('MP_ENV:', config.mpEnv)
   console.log('MP_ACCESS_TOKEN loaded:', config.mpAccessToken ? 'yes' : 'no')
   console.log('Admin auth configured:', config.adminUser && config.jwtSecret ? 'yes' : 'no')
+  console.log('Uploads dir:', config.uploadsDir)
+  console.log('Public uploads base:', config.publicUploadsBaseUrl)
 })
