@@ -6,6 +6,7 @@ import productsRouter from './routes/products.js'
 import checkoutRouter from './routes/checkout.js'
 import webhooksRouter from './routes/webhooks.js'
 import ordersRouter from './routes/orders.js'
+import adminRouter from './routes/admin/index.js'
 
 const app = express()
 
@@ -23,6 +24,7 @@ app.use(productsRouter)
 app.use(checkoutRouter)
 app.use(webhooksRouter)
 app.use(ordersRouter)
+app.use('/api/admin', adminRouter)
 
 app.listen(config.port, () => {
   console.log(`ClaudIA API (Node) listening on http://127.0.0.1:${config.port}`)
@@ -30,4 +32,5 @@ app.listen(config.port, () => {
   console.log('Orders:', config.ordersPath)
   console.log('MP_ENV:', config.mpEnv)
   console.log('MP_ACCESS_TOKEN loaded:', config.mpAccessToken ? 'yes' : 'no')
+  console.log('Admin auth configured:', config.adminUser && config.jwtSecret ? 'yes' : 'no')
 })

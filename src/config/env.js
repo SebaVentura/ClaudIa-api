@@ -23,4 +23,8 @@ export const config = {
   ordersPath: resolveDataPath('ORDERS_PATH', './storage/orders.json'),
   mpAccessToken: (process.env.MP_ACCESS_TOKEN || '').trim(),
   mpEnv: (process.env.MP_ENV || 'sandbox').toLowerCase(),
+  adminUser: (process.env.ADMIN_USER || '').trim(),
+  adminPassword: process.env.ADMIN_PASSWORD || '',
+  jwtSecret: (process.env.JWT_SECRET || '').trim(),
+  jwtExpiresIn: (process.env.JWT_EXPIRES_IN || '8h').trim(),
 }
