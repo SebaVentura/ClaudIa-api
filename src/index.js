@@ -32,6 +32,12 @@ app.listen(config.port, () => {
   console.log(`ClaudIA API (Node) listening on http://127.0.0.1:${config.port}`)
   console.log('Products:', config.productsPath)
   console.log('Orders:', config.ordersPath)
+  console.log('Customers:', config.customersPath)
+  if (config.ordersPath.replace(/\\/g, '/').includes('/storage/')) {
+    console.warn(
+      'AVISO: ORDERS_PATH apunta a storage/. Usar ./data/orders.json para alinear con customers.',
+    )
+  }
   console.log('MP_ENV:', config.mpEnv)
   console.log('MP_ACCESS_TOKEN loaded:', config.mpAccessToken ? 'yes' : 'no')
   console.log('Admin auth configured:', config.adminUser && config.jwtSecret ? 'yes' : 'no')

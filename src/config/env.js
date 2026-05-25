@@ -20,7 +20,8 @@ export const config = {
     .map((o) => o.trim())
     .filter(Boolean),
   productsPath: resolveDataPath('PRODUCTS_PATH', './data/products.json'),
-  ordersPath: resolveDataPath('ORDERS_PATH', './storage/orders.json'),
+  ordersPath: resolveDataPath('ORDERS_PATH', './data/orders.json'),
+  customersPath: resolveDataPath('CUSTOMERS_PATH', './data/customers.json'),
   mpAccessToken: (process.env.MP_ACCESS_TOKEN || '').trim(),
   mpEnv: (process.env.MP_ENV || 'sandbox').toLowerCase(),
   adminUser: (process.env.ADMIN_USER || '').trim(),
