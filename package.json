@@ -7,17 +7,21 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "import:products": "node scripts/import-products.js"
+    "import:products": "node scripts/import-products.js",
+    "migrate:json-to-mongo": "node scripts/migrate-json-to-mongo.js",
+    "migrate:json-to-mongo:dry": "node scripts/migrate-json-to-mongo.js --dry-run",
+    "verify:mongo": "node scripts/verify-mongo-data.js"
   },
   "engines": {
     "node": ">=18"
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "csv-parse": "^5.6.0",
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
-    "csv-parse": "^5.6.0",
     "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.24.0",
     "multer": "^1.4.5-lts.1",
     "uuid": "^10.0.0"
   },
