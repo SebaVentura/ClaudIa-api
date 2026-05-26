@@ -15,6 +15,7 @@ function resolveDataPath(envKey, defaultRelative) {
 export const config = {
   port: Number.parseInt(process.env.PORT || '3000', 10),
   appUrl: (process.env.APP_URL || 'http://localhost:5173').replace(/\/$/, ''),
+  apiPublicUrl: (process.env.API_PUBLIC_URL || 'http://127.0.0.1:3000').replace(/\/$/, ''),
   corsOrigins: (process.env.CORS_ORIGINS || 'http://localhost:5173')
     .split(',')
     .map((o) => o.trim())

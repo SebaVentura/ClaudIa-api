@@ -72,6 +72,7 @@ export async function createCheckoutPreference(orderId, mpItems, buyerEmail = nu
       failure: `${appUrl}/gracias?orderId=${orderId}&status=failure`,
       pending: `${appUrl}/gracias?orderId=${orderId}&status=pending`,
     },
+    notification_url: `${config.apiPublicUrl}/api/webhooks/mercadopago`,
     metadata: {
       order_id: orderId,
       source: 'claudia_landing',
