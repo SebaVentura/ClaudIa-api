@@ -1,6 +1,7 @@
 import { Router } from 'express'
 import { config } from '../config/env.js'
 import { getMongoHealthState } from '../config/mongo.js'
+import { describeStorageBackend, getStorageBackend, getStorageMode } from '../config/persistence.js'
 
 const router = Router()
 
@@ -9,6 +10,8 @@ function buildHealthPayload() {
   const mongoRequired = mongo.configured
   const serviceOk = !mongoRequired || mongo.connected
 
+  const persistence = getStorageBackend()
+
   return {
     status: serviceOk ? 'ok' : 'degraded',
     service: 'claudia-api',
@@ -16,10 +19,15 @@ function buildHealthPayload() {
     runtime: 'node',
     ok: serviceOk,
     environment: config.nodeEnv,
-    persistence: 'json',
+    persistence,
     mongo: {
       configured: mongo.configured,
       connected: mongo.connected,
+    },
+    storageMode: getStorageMode(),
+    storage: {
+      backend: persistence,
+      description: describeStorageBackend(),
     },
   }
 }
