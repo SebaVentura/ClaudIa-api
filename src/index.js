@@ -2,7 +2,6 @@ import cors from 'cors'
 import express from 'express'
 import { config } from './config/env.js'
 import { connectMongo } from './config/mongo.js'
-import { describeStorageBackend } from './config/persistence.js'
 import healthRouter from './routes/health.js'
 import productsRouter from './routes/products.js'
 import checkoutRouter from './routes/checkout.js'
@@ -36,6 +35,7 @@ async function startServer() {
   app.listen(config.port, () => {
     console.log(`ClaudIA API (Node) listening on http://127.0.0.1:${config.port}`)
     console.log('NODE_ENV:', config.nodeEnv)
+    console.log('[STORAGE] json (persistencia activa)')
     console.log('Products:', config.productsPath)
     console.log('Orders:', config.ordersPath)
     console.log('Customers:', config.customersPath)
@@ -45,15 +45,12 @@ async function startServer() {
       )
     }
     if (mongo.skipped) {
-      console.log('[MONGO] No configurado — persistencia JSON activa')
+      console.log('[MONGO] No configurado — solo JSON')
     } else if (mongo.connected) {
-      console.log('[MONGO] Listo')
+      console.log('[MONGO] Conectado (migración/scripts; API sigue en JSON)')
     } else {
-      console.warn(
-        '[MONGO] Sin conexión — API operativa con JSON; /api/health reportará 503 para Mongo',
-      )
+      console.warn('[MONGO] Sin conexión — API operativa con JSON')
     }
-    console.log('[STORAGE]', describeStorageBackend())
     console.log('MP_ENV:', config.mpEnv)
     console.log('MP_ACCESS_TOKEN loaded:', config.mpAccessToken ? 'yes' : 'no')
     console.log('Admin auth configured:', config.adminUser && config.jwtSecret ? 'yes' : 'no')

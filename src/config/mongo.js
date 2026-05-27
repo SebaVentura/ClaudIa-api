@@ -46,14 +46,14 @@ export function getMongoHealthState() {
 }
 
 /**
- * Intenta conectar a MongoDB. No lanza si falla (etapa inicial: JSON sigue operativo).
+ * Conexión reutilizable. No lanza si falla (la API sigue con JSON).
  * @returns {Promise<{ connected: boolean, skipped: boolean, error?: Error }>}
  */
 export async function connectMongo() {
   registerConnectionListeners()
 
   if (!isMongoConfigured()) {
-    console.log('[MONGO] Skipped (MONGODB_URI o MONGODB_DB no configurados)')
+    console.log('[MONGO] Skipped (MONGO_URI no configurado)')
     return { connected: false, skipped: true }
   }
 
@@ -61,14 +61,15 @@ export async function connectMongo() {
     return { connected: true, skipped: false }
   }
 
-  console.log('[MONGO] Connecting...', redactMongoUri(config.mongodbUri))
+  console.log('[MONGO] Connecting...', redactMongoUri(config.mongoUri))
 
   try {
     lastConnectError = null
-    await mongoose.connect(config.mongodbUri, {
-      dbName: config.mongodbDb,
-      serverSelectionTimeoutMS: 10_000,
-    })
+    const options = { serverSelectionTimeoutMS: 10_000 }
+    if (config.mongoDb) {
+      options.dbName = config.mongoDb
+    }
+    await mongoose.connect(config.mongoUri, options)
     return { connected: true, skipped: false }
   } catch (err) {
     lastConnectError = err

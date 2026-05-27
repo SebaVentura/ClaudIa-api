@@ -1,17 +1,5 @@
-import { useMongoPersistence } from '../config/persistence.js'
-import * as jsonRepo from './json/productsRepository.js'
-import * as mongoRepo from './mongo/productsRepository.js'
-
-export { ProductsRepositoryError } from './json/productsRepository.js'
-
-function backend() {
-  return useMongoPersistence() ? mongoRepo : jsonRepo
-}
-
-export async function readAll() {
-  return backend().readAll()
-}
-
-export async function writeAll(products) {
-  return backend().writeAll(products)
-}
+export {
+  ProductsRepositoryError,
+  readAll,
+  writeAll,
+} from './json/productsRepository.js'

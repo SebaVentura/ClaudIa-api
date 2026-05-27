@@ -12,31 +12,44 @@ function resolveDataPath(envKey, defaultRelative) {
   return path.isAbsolute(raw) ? raw : path.resolve(SERVER_ROOT, raw)
 }
 
+function resolveMongoUri() {
+  return (process.env.MONGO_URI || process.env.MONGODB_URI || '').trim()
+}
+
+function resolveMongoDb(uri) {
+  const explicit = (process.env.MONGO_DB || process.env.MONGODB_DB || '').trim()
+  if (explicit) return explicit
+  if (!uri) return ''
+  try {
+    const dbFromPath = new URL(uri).pathname.replace(/^\//, '').split('/')[0]
+    return dbFromPath || ''
+  } catch {
+    return ''
+  }
+}
+
 const nodeEnv = (process.env.NODE_ENV || 'development').trim()
-const mongodbUri = (process.env.MONGODB_URI || '').trim()
-const mongodbDb = (process.env.MONGODB_DB || '').trim()
+const mongoUri = resolveMongoUri()
+const mongoDb = resolveMongoDb(mongoUri)
 
 const port = Number.parseInt(process.env.PORT || '3000', 10)
 if (!Number.isFinite(port) || port < 1 || port > 65535) {
   throw new Error(`PORT inválido: ${process.env.PORT}`)
 }
 
-if (mongodbUri && !mongodbDb) {
-  throw new Error('MONGODB_DB es requerido cuando MONGODB_URI está definido')
-}
-if (mongodbDb && !mongodbUri) {
-  throw new Error('MONGODB_URI es requerido cuando MONGODB_DB está definido')
-}
-
 export function isMongoConfigured() {
-  return Boolean(mongodbUri && mongodbDb)
+  return Boolean(mongoUri)
 }
 
 export const config = {
   port,
   nodeEnv,
-  mongodbUri,
-  mongodbDb,
+  mongoUri,
+  mongoDb,
+  /** @deprecated usar mongoUri */
+  mongodbUri: mongoUri,
+  /** @deprecated usar mongoDb */
+  mongodbDb: mongoDb,
   appUrl: (process.env.APP_URL || 'http://localhost:5173').replace(/\/$/, ''),
   apiPublicUrl: (process.env.API_PUBLIC_URL || 'http://127.0.0.1:3000').replace(/\/$/, ''),
   corsOrigins: (process.env.CORS_ORIGINS || 'http://localhost:5173')

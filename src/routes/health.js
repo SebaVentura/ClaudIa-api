@@ -1,7 +1,6 @@
 import { Router } from 'express'
 import { config } from '../config/env.js'
 import { getMongoHealthState } from '../config/mongo.js'
-import { describeStorageBackend, getStorageBackend } from '../config/persistence.js'
 
 const router = Router()
 
@@ -17,13 +16,10 @@ function buildHealthPayload() {
     runtime: 'node',
     ok: serviceOk,
     environment: config.nodeEnv,
+    persistence: 'json',
     mongo: {
       configured: mongo.configured,
       connected: mongo.connected,
-    },
-    storage: {
-      backend: getStorageBackend(),
-      description: describeStorageBackend(),
     },
   }
 }

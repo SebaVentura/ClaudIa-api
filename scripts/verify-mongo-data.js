@@ -20,7 +20,7 @@ async function readJsonCount(filePath) {
 
 async function main() {
   if (!isMongoConfigured()) {
-    console.error('Configurar MONGODB_URI y MONGODB_DB en .env')
+    console.error('Configurar MONGO_URI en .env')
     process.exit(1)
   }
 

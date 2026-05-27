@@ -84,13 +84,13 @@ async function main() {
   const { dryRun } = parseArgs(process.argv.slice(2))
 
   if (!isMongoConfigured()) {
-    console.error('Configurar MONGODB_URI y MONGODB_DB en .env')
+    console.error('Configurar MONGO_URI en .env')
     process.exit(1)
   }
 
   console.log('=== Migración JSON → MongoDB ===')
   console.log('Raíz:', SERVER_ROOT)
-  console.log('DB:', config.mongodbDb)
+  console.log('DB:', config.mongoDb || '(desde URI)')
   if (dryRun) console.log('Modo: DRY-RUN (sin escritura)')
 
   const mongo = await connectMongo()
