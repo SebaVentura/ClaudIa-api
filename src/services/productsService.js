@@ -132,15 +132,29 @@ export async function setProductCoverImage(id, imageUrl) {
   const productId = String(id || '').trim()
   if (!productId) throw new ProductsServiceError('id requerido')
 
-  const product = await getProductById(productId)
-  const gallery = Array.isArray(product.gallery) ? [...product.gallery] : []
-  const oldImage = product.image
-  const rest = gallery.filter((url) => url !== imageUrl && url !== oldImage)
-
   return updateProduct(productId, {
     image: imageUrl,
-    gallery: [imageUrl, ...rest],
   })
+}
+
+export async function setProductGallerySlot(id, slot, imageUrl) {
+  const productId = String(id || '').trim()
+  if (!productId) throw new ProductsServiceError('id requerido')
+
+  const slotIndex = Number.parseInt(String(slot), 10)
+  if (![0, 1, 2].includes(slotIndex)) {
+    throw new ProductsServiceError('slot de galería inválido (0, 1 o 2)', 400)
+  }
+
+  const product = await getProductById(productId)
+  const gallery = Array.isArray(product.gallery) ? [...product.gallery] : []
+
+  while (gallery.length <= slotIndex) {
+    gallery.push('')
+  }
+  gallery[slotIndex] = imageUrl
+
+  return updateProduct(productId, { gallery })
 }
 
 export async function deactivateProduct(id) {

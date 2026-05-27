@@ -3,6 +3,8 @@ import { config } from '../config/env.js'
 import { isValidProductSlug } from './productValidators.js'
 
 export const COVER_EXTENSIONS = ['jpg', 'png', 'webp']
+export const GALLERY_EXTENSIONS = ['jpg', 'png', 'webp']
+export const GALLERY_SLOTS = [0, 1, 2]
 
 export function assertValidProductId(productId) {
   const id = String(productId || '').trim()
@@ -34,4 +36,22 @@ export function buildCoverPublicUrl(productId, extension) {
     throw new Error('extensión de portada inválida')
   }
   return `${config.publicUploadsBaseUrl}/products/${id}/cover.${ext}`
+}
+
+export function parseGallerySlot(slot) {
+  const n = Number.parseInt(String(slot), 10)
+  if (!GALLERY_SLOTS.includes(n)) {
+    throw new Error('slot de galería inválido (0, 1 o 2)')
+  }
+  return n
+}
+
+export function buildGalleryPublicUrl(productId, slot, extension) {
+  const id = assertValidProductId(productId)
+  const slotIndex = parseGallerySlot(slot)
+  const ext = String(extension || '').toLowerCase()
+  if (!GALLERY_EXTENSIONS.includes(ext)) {
+    throw new Error('extensión de galería inválida')
+  }
+  return `${config.publicUploadsBaseUrl}/products/${id}/gallery-${slotIndex}.${ext}`
 }

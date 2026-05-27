@@ -2,7 +2,9 @@ import { Router } from 'express'
 import multer from 'multer'
 import { requireAdmin } from '../../middleware/requireAdmin.js'
 import { uploadCover } from '../../middleware/uploadCover.js'
-import { uploadProductCover } from '../../services/productImagesService.js'
+import { uploadGallery } from '../../middleware/uploadGallery.js'
+import { uploadProductCover, uploadProductGallerySlot } from '../../services/productImagesService.js'
+import { parseGallerySlot } from '../../utils/uploadPaths.js'
 import { ProductsServiceError, getProductById } from '../../services/productsService.js'
 import { assertValidProductId } from '../../utils/uploadPaths.js'
 
@@ -25,6 +27,42 @@ function handleMulterError(err, res) {
   }
   return false
 }
+
+router.post('/:id/images/gallery/:slot', async (req, res) => {
+  try {
+    assertValidProductId(req.params.id)
+    parseGallerySlot(req.params.slot)
+    await getProductById(req.params.id)
+  } catch (err) {
+    if (err instanceof ProductsServiceError) {
+      return res.status(err.statusCode).json({ detail: err.message })
+    }
+    return res.status(400).json({ detail: err.message })
+  }
+
+  uploadGallery(req, res, async (uploadErr) => {
+    if (uploadErr) {
+      if (handleMulterError(uploadErr, res)) return
+      console.error('Unexpected gallery upload error:', uploadErr)
+      return res.status(500).json({ detail: 'Error al subir la imagen de detalle' })
+    }
+
+    try {
+      const product = await uploadProductGallerySlot(
+        req.params.id,
+        req.params.slot,
+        req.file,
+      )
+      res.json(product)
+    } catch (err) {
+      if (err instanceof ProductsServiceError) {
+        return res.status(err.statusCode).json({ detail: err.message })
+      }
+      console.error('Unexpected gallery save error:', err)
+      res.status(500).json({ detail: 'Error al guardar la imagen de detalle' })
+    }
+  })
+})
 
 router.post('/:id/images/cover', async (req, res) => {
   try {
