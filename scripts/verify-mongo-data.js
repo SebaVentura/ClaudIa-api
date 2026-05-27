@@ -8,13 +8,13 @@ import { Product } from '../src/models/Product.js'
 import { Customer } from '../src/models/Customer.js'
 import { Order } from '../src/models/Order.js'
 
-async function readJsonCount(filePath) {
+async function readJsonArray(filePath) {
   try {
     const raw = await fs.readFile(filePath, 'utf8')
     const data = JSON.parse(raw)
-    return Array.isArray(data) ? data.length : 0
+    return Array.isArray(data) ? data : []
   } catch {
-    return 0
+    return []
   }
 }
 
@@ -31,9 +31,9 @@ async function main() {
   }
 
   const [jsonProducts, jsonCustomers, jsonOrders] = await Promise.all([
-    readJsonCount(config.productsPath),
-    readJsonCount(config.customersPath),
-    readJsonCount(config.ordersPath),
+    readJsonArray(config.productsPath),
+    readJsonArray(config.customersPath),
+    readJsonArray(config.ordersPath),
   ])
 
   const [mongoProducts, mongoCustomers, mongoOrders] = await Promise.all([
@@ -42,18 +42,48 @@ async function main() {
     Order.countDocuments(),
   ])
 
-  const sampleProduct = await Product.findOne({}).select('id title active').lean()
+  const jsonFirstProductId = jsonProducts[0]?.id ?? null
+  const mongoFirst = await Product.findOne({})
+    .sort({ position: 1, id: 1 })
+    .select('id position title')
+    .lean()
+  const mongoFirstProductId = mongoFirst?.id ?? null
+  const firstProductMatch = Boolean(
+    jsonFirstProductId && mongoFirstProductId && jsonFirstProductId === mongoFirstProductId,
+  )
+
   const sampleOrder = await Order.findOne({}).select('orderId status').lean()
 
   console.log('=== Verificación MongoDB ===')
   console.log({
-    json: { products: jsonProducts, customers: jsonCustomers, orders: jsonOrders },
+    json: {
+      products: jsonProducts.length,
+      customers: jsonCustomers.length,
+      orders: jsonOrders.length,
+    },
     mongo: { products: mongoProducts, customers: mongoCustomers, orders: mongoOrders },
   })
-  console.log('sampleProduct:', sampleProduct)
+  console.log('products order check:', {
+    jsonFirstProductId,
+    mongoFirstProductId,
+    mongoFirstPosition: mongoFirst?.position ?? null,
+    match: firstProductMatch,
+  })
+  if (!firstProductMatch) {
+    console.warn('AVISO: el primer producto JSON y Mongo (por position) NO coinciden')
+  } else {
+    console.log('OK: primer producto coincide con products.json')
+  }
   console.log('sampleOrder:', sampleOrder)
 
   await closeMongo()
+
+  if (jsonProducts.length !== mongoProducts) {
+    process.exitCode = 1
+  }
+  if (!firstProductMatch && jsonFirstProductId) {
+    process.exitCode = 1
+  }
 }
 
 main().catch((err) => {

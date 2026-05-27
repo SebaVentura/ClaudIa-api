@@ -15,7 +15,7 @@ function prepareProduct(doc) {
 
 export async function readAll() {
   try {
-    const docs = await Product.find({}).sort({ title: 1 }).lean()
+    const docs = await Product.find({}).sort({ position: 1, id: 1 }).lean()
     return leanDocs(docs).map(prepareProduct)
   } catch (err) {
     console.error('[MONGO] products readAll:', err.message)
@@ -29,8 +29,8 @@ export async function writeAll(products) {
   }
 
   try {
-    const ops = products.map((raw) => {
-      const product = prepareProduct(raw)
+    const ops = products.map((raw, index) => {
+      const product = prepareProduct({ ...raw, position: index })
       return {
         updateOne: {
           filter: { id: product.id },

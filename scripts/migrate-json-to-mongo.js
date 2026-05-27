@@ -25,12 +25,15 @@ async function readJsonArray(filePath, label) {
   return data
 }
 
-function prepareProduct(doc) {
+function prepareProduct(doc, index) {
   const product = { ...doc }
   if (!product.id) throw new Error('Producto sin id')
   const link = product.downloadLink ?? product.deliveryUrl ?? product.downloadUrl ?? ''
   product.deliveryUrl = product.deliveryUrl ?? link
   product.downloadUrl = product.downloadUrl ?? link
+  if (typeof index === 'number' && index >= 0) {
+    product.position = index
+  }
   return product
 }
 
@@ -52,12 +55,21 @@ function prepareOrder(doc) {
   return order
 }
 
-async function upsertCollection({ Model, items, filterKey, prepare, label, dryRun }) {
+async function upsertCollection({
+  Model,
+  items,
+  filterKey,
+  prepare,
+  label,
+  dryRun,
+  withIndex = false,
+}) {
   const summary = { total: items.length, upserted: 0, updated: 0, unchanged: 0, errors: 0 }
 
-  for (const raw of items) {
+  for (let i = 0; i < items.length; i += 1) {
+    const raw = items[i]
     try {
-      const doc = prepare(raw)
+      const doc = withIndex ? prepare(raw, i) : prepare(raw)
       const filter = { [filterKey]: doc[filterKey] }
 
       if (dryRun) {
@@ -110,6 +122,7 @@ async function main() {
     prepare: prepareProduct,
     label: 'products',
     dryRun,
+    withIndex: true,
   })
 
   const customersSummary = await upsertCollection({
